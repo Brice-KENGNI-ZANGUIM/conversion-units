@@ -43,7 +43,12 @@ a - <strong> Temperature conversion </strong>
 
 from conversion_units import temperature
 print(temperature.kelvin_to_celcius( 0. ) )
-print( temperature.kelvin_to_rankine(62))
+print( temperature.kelvin_to_rankine(60.0))
+```
+```python
+Output : 
+-273.15
+108.0
 ```
 b - <strong> distance conversion </strong>
 
@@ -52,6 +57,10 @@ b - <strong> distance conversion </strong>
 from conversion_units import distance
 print(meter_to_kilometer(23000))
 
+```
+```python
+Output : 
+23.0
 ```
 ## 5. Author
 
