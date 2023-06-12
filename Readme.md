@@ -1,5 +1,6 @@
 # conversion-units
-unified package contening collection of method to **convert values from one unit to another.** It can be a Distance, a Time, a Temperature, a Mass . . .etc
+This package provide a unified collection of method to **convert values from one unit to another.** 
+Yet i start with only 4 physical size namely <strong> distance, time, mass and temperature </strong>
 
 ## 1. Installation
 
