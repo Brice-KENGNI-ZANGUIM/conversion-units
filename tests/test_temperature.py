@@ -50,3 +50,4 @@ def test_rankine_to_kelvin( ) -> None :
     assert temperature.rankine_to_kelvin( 54.0) == 30.0
 
     assert temperature.rankine_to_kelvin( 9.0) == 5.0
+
