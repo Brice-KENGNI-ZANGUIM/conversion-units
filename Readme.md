@@ -10,7 +10,7 @@ Run the following code in a terminal to install the conversion package in you py
 pip install conversion-units
 ```
 or
-```python
+```bash
 pip install conversion_units
 ```
 
