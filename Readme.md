@@ -15,19 +15,40 @@ pip install conversion_units
     <li> Temperature   </li>
 </ul>
 
-## 3. Usage
+## 3. Import
 
 ```python
-import convertion_units
-convertion_unit.temperature.kelvin_to_celcius( 0. )
--273.15
+
+from conversion_units import mass
+from conversion_units import time
+from conversion_units import distance
+from conversion_units import temperature
+
 ```
 
-## 4. Author
+## 4. Usage
+a - <strong> Temperature conversion </strong>
+```python
+
+from conversion_units import temperature
+print(temperature.kelvin_to_celcius( 0. ) )
+print( temperature.kelvin_to_rankine(62))
+```
+b - <strong> distance conversion </strong>
+
+```python
+
+from conversion_units import distance
+print(meter_to_kilometer(23000))
+
+```
+## 5. Author
 
 <ul>
     <li> Full Name : <strong> Brice KENGNI ZANGUIM </strong>  </li>
     <li> Email : <strong> kenzabri2@yahoo.com </strong>   </li>
 </ul>
+
+## 6. Contributors
 
 
