@@ -2,13 +2,15 @@
 This package provide a unified collection of method to **convert values from one unit to another.** 
 Yet i start with only 4 physical size namely <strong> distance, time, mass and temperature </strong>
 
-## 1. Installation
+## 1. Run the following code for the installation
 
 ```python
 pip install conversion_units
 ```
 
 ## 2. Availables dimensions
+
+At this point, the only dimension that have being implement in the package are : 
 <ul>
     <li> Mass   </li>
     <li> Distance   </li>
@@ -18,6 +20,7 @@ pip install conversion_units
 
 ## 3. Import
 
+You can make can a conversion by simply import a module name after the physical size you want to use. Every modules contain multiple method that can help you doing the conversion you need.
 ```python
 
 from conversion_units import mass
