@@ -45,6 +45,9 @@ from conversion_units import temperature
 print(temperature.kelvin_to_celcius( 0. ) )
 print( temperature.kelvin_to_rankine(60.0))
 ```
+
+and the result is :
+
 ```python
 Output : 
 -273.15
@@ -58,6 +61,9 @@ from conversion_units import distance
 print(meter_to_kilometer(23000))
 
 ```
+
+And the result is : 
+
 ```python
 Output : 
 23.0
