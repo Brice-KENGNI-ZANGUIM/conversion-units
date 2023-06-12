@@ -44,6 +44,7 @@ a - <strong> Temperature conversion </strong>
 from conversion_units import temperature
 print(temperature.kelvin_to_celcius( 0. ) )
 print( temperature.kelvin_to_rankine(60.0))
+print( temperature.rankine_to_celcius(27.0))
 ```
 
 and the result is :
@@ -52,6 +53,7 @@ and the result is :
 Output : 
 -273.15
 108.0
+-258.15
 ```
 b - <strong> distance conversion </strong>
 
