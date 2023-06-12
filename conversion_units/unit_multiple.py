@@ -1,0 +1,17 @@
+
+HEXA = 1.e18
+PETA = 1.e15
+TERA = 1.e12
+GIGA = 1.e9
+MEGA = 1.e6
+KILO = 1.e3
+HECTO = 1.e2
+DECA = 1.e1
+DECI = 1.e-1
+CENTI = 1.e-2
+MILLI = 1.e-3
+MICRO = 1.e-6
+NANO = 1.e-9
+PICA = 1.e-12
+FEMTO = 1.e-15
+ATTO = 1.e-18
