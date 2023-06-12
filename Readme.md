@@ -6,7 +6,7 @@ Yet i start with only 4 physical size namely <strong> distance, time, mass and t
 
 Run the following code in a terminal to install the conversion package in you python environnement
 
-```python
+```bash
 pip install conversion-units
 ```
 or
