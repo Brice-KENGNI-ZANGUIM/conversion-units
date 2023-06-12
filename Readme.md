@@ -2,8 +2,14 @@
 This package provide a unified collection of method to **convert values from one unit to another.** 
 Yet i start with only 4 physical size namely <strong> distance, time, mass and temperature </strong>
 
-## 1. Run the following code for the installation
+## 1. Installation
 
+Run the following code in a terminal to install the conversion package in you python environnement
+
+```python
+pip install conversion-units
+```
+or
 ```python
 pip install conversion_units
 ```
@@ -31,6 +37,7 @@ from conversion_units import temperature
 ```
 
 ## 4. Usage
+
 a - <strong> Temperature conversion </strong>
 ```python
 
