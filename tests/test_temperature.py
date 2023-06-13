@@ -1,12 +1,10 @@
 from conversion_units import temperature
+import pytest
 
+@pytest.mark.parametrize("a,b" , [ (0.0, 273.15) , (-273.15 , 0.0) ] )
+def test_temperature_celcius_to_kelvin( a:float , b:float ) -> None :
 
-def test_temperature_celcius_to_kelvin() -> None :
-
-    assert temperature.celcius_to_kelvin(0) == 273.15
-
-    assert temperature.celcius_to_kelvin(-273.15) == 0.0
-
+    assert temperature.celcius_to_kelvin(a) == b
 
 def test_kelvin_to_celcius() -> None :
 
@@ -19,12 +17,10 @@ def test_celcius_to_fahrenheit() -> None :
 
     assert temperature.celcius_to_fahrenheit(5.0) == 41.0
 
+@pytest.mark.parametrize("a,b", [ ( 32.0 , 0.0 ), ( 41.0 , 5.0 )])
+def test_fahrenheit_to_celcius( a : float , b : float) -> None :
 
-def test_fahrenheit_to_celcius() -> None :
-
-    assert temperature.fahrenheit_to_celcius(32.0) == 0.0
-
-    assert temperature.fahrenheit_to_celcius(41.0) == 5.0
+    assert temperature.fahrenheit_to_celcius(a) == b
 
 
 def test_rankine_to_celcius() -> None : 
